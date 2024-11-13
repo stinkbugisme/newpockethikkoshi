@@ -90,14 +90,6 @@ export function BaggageSection({
       return total + volume;
     }, 0);
   };
-  // BaggageSection.tsx
-  const IMAGE_BASE_PATH = "/images/baggage"; // 基本パスを定義
-
-  // 画像パスを修正する関数
-  const getImagePath = (path: string) => {
-    if (path.startsWith("/images")) return path; // すでに完全なパスの場合
-    return `${IMAGE_BASE_PATH}/${path}`; // 相対パスの場合は基本パスを追加
-  };
 
   // 完了処理
   // 完了処理を修正

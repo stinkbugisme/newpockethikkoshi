@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { SelectModal } from "../modal/selectModal";
 interface TextAllowButtonProps {
   modalChildren: React.ReactNode;

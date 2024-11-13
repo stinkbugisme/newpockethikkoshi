@@ -1,6 +1,6 @@
 // CompleteSelection.tsx
 import type { Selection } from "./AddressSelectionSteps";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 interface CompleteSelectionProps {
   selection: Selection;
