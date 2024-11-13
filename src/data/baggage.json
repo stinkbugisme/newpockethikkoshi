@@ -1,0 +1,882 @@
+{
+  "categories": [
+      {
+          "name": "冷蔵庫",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "冷蔵庫(1ドア)",
+                  "dimensions": {
+                      "length": "48",
+                      "width": "47",
+                      "height": "50"
+                  },
+                  "features": [],
+                  "image_path": "img/reizouko 1.webp"
+              },
+              {
+                  "name": "冷蔵庫(2ドア)",
+                  "dimensions": {
+                      "length": "59",
+                      "width": "48",
+                      "height": "128"
+                  },
+                  "features": [],
+                  "image_path": "img/reizouko 2.webp"
+              },
+              {
+                  "name": "冷蔵庫(3ドア)",
+                  "dimensions": {
+                      "length": "67",
+                      "width": "55",
+                      "height": "159"
+                  },
+                  "features": [],
+                  "image_path": "img/reizouko 3.webp"
+              },
+              {
+                  "name": "冷蔵庫(4ドア)",
+                  "dimensions": {
+                      "length": "60",
+                      "width": "173",
+                      "height": "66"
+                  },
+                  "features": [],
+                  "image_path": "img/reizouko 4.webp"
+              },
+              {
+                  "name": "冷蔵庫(5ドア)",
+                  "dimensions": {
+                      "length": "70",
+                      "width": "60",
+                      "height": "182"
+                  },
+                  "features": [],
+                  "image_path": "img/reizouko 5.webp"
+              },
+              {
+                  "name": "冷蔵庫(6ドア)",
+                  "dimensions": {
+                      "length": "188",
+                      "width": "74",
+                      "height": "69"
+                  },
+                  "features": [],
+                  "image_path": "img/reizouko 6.webp"
+              }
+          ]
+      },
+      {
+          "name": "冷凍庫",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "冷凍庫(小)",
+                  "dimensions": {
+                      "length": "45",
+                      "width": "47",
+                      "height": "50"
+                  },
+                  "features": [],
+                  "image_path": "img/reitouko small.webp"
+              },
+              {
+                  "name": "冷凍庫(大)",
+                  "dimensions": {
+                      "length": "64",
+                      "width": "48",
+                      "height": "129"
+                  },
+                  "features": [],
+                  "image_path": "img/reitouko big.webp"
+              }
+          ]
+      },
+      {
+          "name": "洗濯機",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "洗濯機(縦型)",
+                  "dimensions": {
+                      "length": "60",
+                      "width": "59",
+                      "height": "97"
+                  },
+                  "features": [],
+                  "image_path": "img/sentakuki tate.webp"
+              },
+              {
+                  "name": "洗濯機(ドラム式)",
+                  "dimensions": {
+                      "length": "72",
+                      "width": "60",
+                      "height": "101"
+                  },
+                  "features": [],
+                  "image_path": "img/sentakuki doramu.webp"
+              }
+          ]
+      },
+      {
+          "name": "ベッド",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "ベッドシングル(マットレスのみ)",
+                  "dimensions": {
+                      "length": "195",
+                      "width": "97",
+                      "height": "20"
+                  },
+                  "features": [],
+                  "image_path": "img/bedmadonly.webp"
+              },
+              {
+                  "name": "ベッドシングル(フレームのみ)",
+                  "dimensions": {
+                      "length": "100",
+                      "width": "97",
+                      "height": "10"
+                  },
+                  "features": [],
+                  "image_path": "img/bed frame only.webp"
+              },
+              {
+                  "name": "ベッドシングル(フレームとマットレス)",
+                  "dimensions": {
+                      "length": "210",
+                      "width": "100",
+                      "height": "30"
+                  },
+                  "features": [],
+                  "image_path": "img/bed all.webp"
+              },
+              {
+                  "name": "ベッドセミダブル(マットレスのみ)",
+                  "dimensions": {
+                      "length": "195",
+                      "width": "120",
+                      "height": "20"
+                  },
+                  "features": [],
+                  "image_path": "img/bed semidavull mattresu only.webp"
+              },
+              {
+                  "name": "ベッドセミダブル(フレームのみ)",
+                  "dimensions": {
+                      "length": "110",
+                      "width": "90",
+                      "height": "10"
+                  },
+                  "features": [],
+                  "image_path": "img/bed semidavull flame only.webp"
+              },
+              {
+                  "name": "ベッドセミダブル(フレームとマットレス)",
+                  "dimensions": {
+                      "length": "200",
+                      "width": "120",
+                      "height": "40"
+                  },
+                  "features": [],
+                  "image_path": "img/bed semidavull all.webp"
+              },
+              {
+                  "name": "ベッドダブル(マットレスのみ)",
+                  "dimensions": {
+                      "length": "195",
+                      "width": "140",
+                      "height": "20"
+                  },
+                  "features": [],
+                  "image_path": "img/bed davull mattresu only.webp"
+              },
+              {
+                  "name": "ベッドダブル(フレームのみ)",
+                  "dimensions": {
+                      "length": "100",
+                      "width": "140",
+                      "height": "10"
+                  },
+                  "features": [],
+                  "image_path": "img/bed davull flame only.webp"
+              },
+              {
+                  "name": "ベッドダブル(マットレスとフレーム)",
+                  "dimensions": {
+                      "length": "210",
+                      "width": "140",
+                      "height": "40"
+                  },
+                  "features": [],
+                  "image_path": "img/bed davull all.webp"
+              },
+              {
+                  "name": "ベッドクイーン(マットレスのみ)",
+                  "dimensions": {
+                      "length": "195",
+                      "width": "160",
+                      "height": "22"
+                  },
+                  "features": [],
+                  "image_path": "img/bed queen mattresu only.webp"
+              },
+              {
+                  "name": "ベッドクイーン(フレームのみ)",
+                  "dimensions": {
+                      "length": "110",
+                      "width": "80",
+                      "height": "20"
+                  },
+                  "features": [],
+                  "image_path": "img/bed queen flame only.webp"
+              },
+              {
+                  "name": "ベッドクイーン(マットレスとフレーム)",
+                  "dimensions": {
+                      "length": "210",
+                      "width": "160",
+                      "height": "40"
+                  },
+                  "features": [],
+                  "image_path": "img/bed queen all.webp"
+              }
+          ]
+      },
+      {
+          "name": "テレビ",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "テレビ20型以上",
+                  "dimensions": {
+                      "length": "14.3",
+                      "width": "55.3",
+                      "height": "35.7"
+                  },
+                  "features": [],
+                  "image_path": "img/tv24.webp"
+              },
+              {
+                  "name": "テレビ40型以上",
+                  "dimensions": {
+                      "length": "8.5",
+                      "width": "90",
+                      "height": "52"
+                  },
+                  "features": [],
+                  "image_path": "img/tv40.webp"
+              },
+              {
+                  "name": "テレビ60型以上",
+                  "dimensions": {
+                      "length": "135",
+                      "width": "29",
+                      "height": "86.3"
+                  },
+                  "features": [],
+                  "image_path": "img/tv60.webp"
+              }
+          ]
+      },
+      {
+          "name": "テレビ台",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "テレビ台小(テレビ32型以下)",
+                  "dimensions": {
+                      "length": "73",
+                      "width": "29",
+                      "height": "37"
+                  },
+                  "features": [],
+                  "image_path": "img/tvstand smail.webp"
+              },
+              {
+                  "name": "テレビ台大(33型以上)",
+                  "dimensions": {
+                      "length": "180",
+                      "width": "42",
+                      "height": "36"
+                  },
+                  "features": [],
+                  "image_path": "img/tvstand big.webp"
+              }
+          ]
+      },
+      {
+          "name": "ダイニングテーブル",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "ダイニングテーブル(小)",
+                  "dimensions": {
+                      "length": "70",
+                      "width": "70",
+                      "height": "72"
+                  },
+                  "features": [],
+                  "image_path": "img/dininngtable small.webp"
+              },
+              {
+                  "name": "ダイニングテーブル(大)",
+                  "dimensions": {
+                      "length": "190",
+                      "width": "90",
+                      "height": "70"
+                  },
+                  "features": [],
+                  "image_path": "img/dininngtable big.webp"
+              }
+          ]
+      },
+      {
+          "name": "イス",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "イス(小)",
+                  "dimensions": {
+                      "length": "32",
+                      "width": "32",
+                      "height": "45"
+                  },
+                  "features": [],
+                  "image_path": "img/chaier small.webp"
+              },
+              {
+                  "name": "イス(大)",
+                  "dimensions": {
+                      "length": "54",
+                      "width": "47",
+                      "height": "82"
+                  },
+                  "features": [],
+                  "image_path": "img/chaier big.webp"
+              },
+              {
+                  "name": "オフィスチェア",
+                  "dimensions": {
+                      "length": "64",
+                      "width": "64",
+                      "height": "114"
+                  },
+                  "features": [],
+                  "image_path": "img/chaier office.webp"
+              }
+          ]
+      },
+      {
+          "name": "ソファー",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "ソファー(1人用)",
+                  "dimensions": {
+                      "length": "65",
+                      "width": "73",
+                      "height": "70"
+                  },
+                  "features": [],
+                  "image_path": "img/sofa 1only.webp"
+              },
+              {
+                  "name": "ソファー(2人用)",
+                  "dimensions": {
+                      "length": "73",
+                      "width": "135",
+                      "height": "70"
+                  },
+                  "features": [],
+                  "image_path": "img/sofa 2only.webp"
+              },
+              {
+                  "name": "ソファー(3人用)",
+                  "dimensions": {
+                      "length": "73",
+                      "width": "170",
+                      "height": "70"
+                  },
+                  "features": [],
+                  "image_path": "img/sofa 3only.webp"
+              }
+          ]
+      },
+      {
+          "name": "食器棚",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "食器棚(小)",
+                  "dimensions": {
+                      "length": "41",
+                      "width": "60",
+                      "height": "89"
+                  },
+                  "features": [],
+                  "image_path": "img/syokidana small.webp"
+              },
+              {
+                  "name": "食器棚(大)",
+                  "dimensions": {
+                      "length": "45",
+                      "width": "89",
+                      "height": "184"
+                  },
+                  "features": [],
+                  "image_path": "img/syokidana big.webp"
+              }
+          ]
+      },
+      {
+          "name": "タンス",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "タンス(大)",
+                  "dimensions": {
+                      "length": "44",
+                      "width": "78",
+                      "height": "92"
+                  },
+                  "features": [],
+                  "image_path": "img/tansu big.webp"
+              },
+              {
+                  "name": "タンス(小)",
+                  "dimensions": {
+                      "length": "88",
+                      "width": "39",
+                      "height": "39"
+                  },
+                  "features": [],
+                  "image_path": "img/tansu small.webp"
+              }
+          ]
+      },
+      {
+          "name": "ローテーブル",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "ローテーブル(小)",
+                  "dimensions": {
+                      "length": "60",
+                      "width": "60",
+                      "height": "32"
+                  },
+                  "features": [],
+                  "image_path": "img/lotable small.webp"
+              },
+              {
+                  "name": "ローテーブル(大)",
+                  "dimensions": {
+                      "length": "50",
+                      "width": "119",
+                      "height": "38"
+                  },
+                  "features": [],
+                  "image_path": "img/lotable big.webp"
+              }
+          ]
+      },
+      {
+          "name": "衣装ケース",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "衣装ケース(1段)",
+                  "dimensions": {
+                      "length": "39",
+                      "width": "53",
+                      "height": "23"
+                  },
+                  "features": [],
+                  "image_path": "img/isyoucase1.webp"
+              },
+              {
+                  "name": "衣装ケース(2段)",
+                  "dimensions": {
+                      "length": "63",
+                      "width": "53",
+                      "height": "48"
+                  },
+                  "features": [],
+                  "image_path": "img/isyoucase2.webp"
+              },
+              {
+                  "name": "衣装ケース(3段)",
+                  "dimensions": {
+                      "length": "54",
+                      "width": "40",
+                      "height": "63"
+                  },
+                  "features": [],
+                  "image_path": "img/isyoucase3.webp"
+              }
+          ]
+      },
+      {
+          "name": "チェスト",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "チェスト小",
+                  "dimensions": {
+                      "length": "34",
+                      "width": "42",
+                      "height": "68"
+                  },
+                  "features": [],
+                  "image_path": "img/tyesuto small.webp"
+              },
+              {
+                  "name": "チェスト大",
+                  "dimensions": {
+                      "length": "73",
+                      "width": "42",
+                      "height": "100"
+                  },
+                  "features": [],
+                  "image_path": "img/tyesuto big.webp"
+              }
+          ]
+      },
+      {
+          "name": "カラーボックス",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "カラーボックス(2段)",
+                  "dimensions": {
+                      "length": "29",
+                      "width": "42",
+                      "height": "60"
+                  },
+                  "features": [],
+                  "image_path": "img/clorbox2.webp"
+              },
+              {
+                  "name": "カラーボックス(3段)",
+                  "dimensions": {
+                      "length": "37",
+                      "width": "29",
+                      "height": "73"
+                  },
+                  "features": [],
+                  "image_path": "img/clorbox3.webp"
+              }
+          ]
+      },
+      {
+          "name": "棚",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "棚小",
+                  "dimensions": {
+                      "length": "30",
+                      "width": "18",
+                      "height": "40"
+                  },
+                  "features": [],
+                  "image_path": "img/tana small.webp"
+              },
+              {
+                  "name": "棚　大",
+                  "dimensions": {
+                      "length": "36",
+                      "width": "91",
+                      "height": "137"
+                  },
+                  "features": [],
+                  "image_path": "img/tana big.webp"
+              }
+          ]
+      },
+      {
+          "name": "パソコン",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+            {
+              "name": "PCデスク",
+              "image_path": "img/pcdesk.webp",
+              "dimensions": {
+                  "length": "60",
+                  "width": "120",
+                  "height": "70"
+              },
+              "features": []
+          },
+              {
+                  "name": "パソコン(デスクトップ)",
+                  "dimensions": {
+                      "length": "22",
+                      "width": "44",
+                      "height": "48"
+                  },
+                  "features": [],
+                  "image_path": "img/pc desktop.webp"
+              },
+              {
+                  "name": "パソコン(ノートパソコン)",
+                  "dimensions": {
+                      "length": "20",
+                      "width": "35",
+                      "height": "41"
+                  },
+                  "features": [],
+                  "image_path": "img/pc note.webp"
+              },
+              {
+                  "name": "PCモニター",
+                  "dimensions": {
+                      "length": "17",
+                      "width": "52",
+                      "height": "35"
+                  },
+                  "features": [],
+                  "image_path": "img/pc monita-.webp"
+              }
+          ]
+      },
+      {
+          "name": "生活用品",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "こたつ",
+                  "image_path": "img/kotatu.webp",
+                  "dimensions": {
+                      "length": "69",
+                      "width": "69",
+                      "height": "36"
+                  },
+                  "features": []
+              },
+              {
+                  "name": "布団(1セット)",
+                  "image_path": "img/huton.webp",
+                  "dimensions": {
+                      "length": "100",
+                      "width": "65",
+                      "height": "35"
+                  },
+                  "features": []
+              }
+          ]
+      },
+      {
+          "name": "小型家電",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "電子レンジ・オーブン",
+                  "image_path": "img/rennzi.webp",
+                  "dimensions": {
+                      "length": "40",
+                      "width": "51",
+                      "height": "33"
+                  },
+                  "features": []
+              },
+              {
+                  "name": "プリンター",
+                  "image_path": "img/printer.webp",
+                  "dimensions": {
+                      "length": "40",
+                      "width": "51",
+                      "height": "33"
+                  },
+                  "features": []
+              },
+              {
+                  "name": "ヒーター",
+                  "image_path": "img/hiter.webp",
+                  "dimensions": {
+                      "length": "19",
+                      "width": "28",
+                      "height": "62"
+                  },
+                  "features": []
+              },
+              {
+                  "name": "扇風機",
+                  "image_path": "img/sennpuuki.webp",
+                  "dimensions": {
+                      "length": "36",
+                      "width": "36",
+                      "height": "88"
+                  },
+                  "features": []
+              },
+              {
+                  "name": "空気清浄機",
+                  "has_subcategories": false,
+                  "image_path": "img/kuukiseizyouki.webp",
+                  "dimensions": {
+                      "length": "61",
+                      "width": "40",
+                      "height": "23"
+                  },
+                  "features": []
+              },
+              {
+                  "name": "掃除機",
+                  "has_subcategories": false,
+                  "image_path": "img/souziki.webp",
+                  "dimensions": {
+                      "length": "22",
+                      "width": "26",
+                      "height": "33"
+                  },
+                  "features": []
+              },
+              {
+                  "name": "スタンドミラー",
+                  "image_path": "img/stand mirra.webp",
+                  "dimensions": {
+                      "length": "61",
+                      "width": "40",
+                      "height": "23"
+                  },
+                  "features": []
+              },
+              {
+                "name": "スーツケース",
+                "image_path": "img/carrybag.webp",
+                "dimensions": {
+                    "length": "42",
+                    "width": "25",
+                    "height": "65"
+                },
+                "features": []
+            }
+          ]
+      },
+      
+      {
+          "name": "エアコン",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "エアコン(100v)",
+                  "dimensions": {
+                      "length": "90 ",
+                      "width": "60",
+                      "height": "80"
+                  },
+                  "features": [],
+                  "image_path": "img/aircon 100v.webp"
+              },
+              {
+                  "name": "エアコン(200V)",
+                  "dimensions": {
+                      "length": "88",
+                      "width": "160",
+                      "height": "25"
+                  },
+                  "features": [],
+                  "image_path": "img/aircon 200v.webp"
+              }
+          ]
+      },
+      {
+          "name": "照明器具",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "照明器具(シーリング)",
+                  "dimensions": {
+                      "length": "50",
+                      "width": "50",
+                      "height": "15"
+                  },
+                  "features": [],
+                  "image_path": "img/syoumeikigu si-rinngu.webp"
+              },
+              {
+                  "name": "照明器具(スポット照明)",
+                  "dimensions": {
+                      "length": "65",
+                      "width": "13",
+                      "height": "19"
+                  },
+                  "features": [],
+                  "image_path": "img/syoumeikigu supoddo.webp"
+              }
+          ]
+      },
+      {
+          "name": "自転車",
+          "has_subcategories": true,
+          "image_path": "",
+          "subcategories": [
+              {
+                  "name": "普通自転車",
+                  "dimensions": {
+                      "length": "180",
+                      "width": "56",
+                      "height": "97"
+                  },
+                  "features": [],
+                  "image_path": "img/zitennsya nomal.webp"
+              },
+              {
+                  "name": "自転車(折り畳み式)",
+                  "dimensions": {
+                      "length": "143",
+                      "width": "56",
+                      "height": "97"
+                  },
+                  "features": [],
+                  "image_path": "img/zitennsya oritatamisiki.webp"
+              },
+              {
+                  "name": "自転車(電動自転車)",
+                  "dimensions": {
+                      "length": "189",
+                      "width": "55",
+                      "height": "100"
+                  },
+                  "features": [],
+                  "image_path": "img/zitennsya denndou.webp"
+              }
+          ]
+      },
+      {
+          "name": "ダンボール",
+          "has_subcategories": false,
+          "image_path": "img/dannboru.webp",
+          "dimensions": {
+              "length": "49",
+              "width": "34",
+              "height": "36"
+          },
+          "features": []
+      }
+  ]
+}
