@@ -139,6 +139,7 @@ export function BaggageSection({
                               src={`/images/baggage/${sub.image_path}`}
                               alt={sub.name}
                               fill
+                              loading="eager" // 即時読み込みが必要な場合
                               sizes="(max-width: 768px) 150px,
                                 (max-width: 1024px) 200px,
                                 256px"
