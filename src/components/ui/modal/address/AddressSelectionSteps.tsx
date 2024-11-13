@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { AreaSelectByName } from "./areaSelectByName";
 import type { PrefectureName } from "./areaSelectByName";
 import { AddressSelectByCity } from "./AddressSelectByCity";
@@ -39,6 +39,12 @@ export function AddressSelectionSteps({
     street: undefined,
     buildingType: "mansion",
   });
+  useEffect(() => {
+    const modalContent = document.querySelector(".scrollbar-thin");
+    if (modalContent) {
+      modalContent.scrollTop = 0;
+    }
+  }, [step]);
 
   const handlePrevStep = () => {
     switch (step) {
@@ -121,7 +127,7 @@ export function AddressSelectionSteps({
   };
 
   return (
-    <div className="w-full p-4 overflow-y-auto scrollbar-thin pb-[80px]">
+    <div className="w-full p-4 overflow-y-auto scrollbar-thin pb-[180px]">
       {step !== "prefecture" && (
         <button
           className="bg-red-400 text-white px-3 py-1 font-bold rounded-md"

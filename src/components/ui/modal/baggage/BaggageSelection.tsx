@@ -124,7 +124,7 @@ export function BaggageSection({
         <div className="max-w-4xl mx-auto p-4">
           <h2 className="text-xl font-bold mb-6">荷物を選択</h2>
 
-          <div className="space-y-8 max-h-[70vh] overflow-y-auto pb-[130px]">
+          <div className="space-y-8 max-h-[70vh] overflow-y-auto pb-[220px]">
             {categories.map((category) => (
               <div key={category.name} className="space-y-4">
                 <h3 className="text-lg font-semibold">{category.name}</h3>

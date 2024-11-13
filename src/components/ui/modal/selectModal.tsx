@@ -16,8 +16,8 @@ export function SelectModal({
     switch (modalSize) {
       case "top":
         return {
-          topPadding: "pt-[20vh]",
-          height: "h-[80vh]",
+          topPadding: "pt-[10vh]",
+          height: "h-[90vh]",
         };
       case "mid":
         return {
