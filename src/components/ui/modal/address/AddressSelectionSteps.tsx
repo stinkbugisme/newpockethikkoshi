@@ -127,7 +127,7 @@ export function AddressSelectionSteps({
   };
 
   return (
-    <div className="w-full p-4 overflow-y-auto scrollbar-thin pb-[180px]">
+    <div className="w-full p-4 overflow-y-auto scrollbar-thin pb-[50px]">
       {step !== "prefecture" && (
         <button
           className="bg-red-400 text-white px-3 py-1 font-bold rounded-md"

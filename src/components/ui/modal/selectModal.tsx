@@ -16,13 +16,13 @@ export function SelectModal({
     switch (modalSize) {
       case "top":
         return {
-          topPadding: "pt-[10vh]",
-          height: "h-[90vh]",
+          topPadding: "pt-[10dvh]", // dvhに変更
+          height: "h-[90dvh]", // dvhに変更
         };
       case "mid":
         return {
-          topPadding: "pt-[50vh]",
-          height: "h-[50vh]",
+          topPadding: "pt-[50dvh]", // dvhに変更
+          height: "h-[50dvh]", // dvhに変更
         };
     }
   };
