@@ -8,11 +8,16 @@ import { useState } from "react";
 import type { Selection } from "@/components/ui/modal/address/AddressSelectionSteps";
 import { AddressSection } from "@/components/ui/modal/address/AddressSelection";
 import { BaggageSection } from "@/components/ui/modal/baggage/BaggageSelection";
+import { DateSelectionModal } from "@/components/ui/modal/date/DateSelectionModal";
+import { SearchButton } from "@/components/ui/button/SearchButton";
 
 export default function Home() {
   const [currentAddressModalOpen, setCurrentAddressModalOpen] = useState(false);
   const [newAddressModalOpen, setNewAddressModalOpen] = useState(false);
   const [baggageModalOpen, setBaggageModalOpen] = useState(false);
+
+  const [dateModalOpen, setDateModalOpen] = useState(false);
+  const [selectedDate, setSelectedDate] = useState<Date | null>(null);
 
   const [currentAddress, setCurrentAddress] = useState<Selection>({
     postal: undefined,
@@ -46,6 +51,12 @@ export default function Home() {
     console.error("住所選択エラー:", error);
   };
 
+  const handleDateSelect = (date: Date | null) => {
+    setSelectedDate(date);
+    setDateModalOpen(false);
+    console.log("選択日:", date);
+  };
+
   return (
     <MainContainer>
       <ContantsContainer>
@@ -71,7 +82,14 @@ export default function Home() {
               isOpen={baggageModalOpen}
               onOpenChange={setBaggageModalOpen}
             />
+            <DateSelectionModal
+              isOpen={dateModalOpen}
+              onOpenChange={setDateModalOpen}
+              selectedDate={selectedDate}
+              onDateSelect={handleDateSelect}
+            />
           </EstimateFormList>
+          <SearchButton onClick={() => alert("ttest")} />
         </EstimateFormContainer>
       </ContantsContainer>
     </MainContainer>

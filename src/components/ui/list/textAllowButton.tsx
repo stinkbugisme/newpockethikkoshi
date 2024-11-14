@@ -35,7 +35,7 @@ export function TextAllowButton({
           w-full
           border
           border-grey
-          p-3
+          p-4
           my-1
           rounded-lg
           flex

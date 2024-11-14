@@ -21,8 +21,8 @@ export function SelectModal({
         };
       case "mid":
         return {
-          topPadding: "pt-[50dvh]", // dvhに変更
-          height: "h-[50dvh]", // dvhに変更
+          topPadding: "pt-[30dvh]", // dvhに変更
+          height: "h-[70dvh]", // dvhに変更
         };
     }
   };

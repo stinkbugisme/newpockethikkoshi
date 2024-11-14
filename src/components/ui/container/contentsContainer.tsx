@@ -13,6 +13,7 @@ export function ContantsContainer({
             max-w-[640px]
             w-full
             mx-auto
+            pt-[90px]
             bg-white
             shadow-md
             ${className}
